@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tony'sGoogleHomePage</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav class="leftNav">
+            <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US&pli=1"
+                class="items">About</a>
+            <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"
+                class='items'>Store</a>
+        </nav>
+        <nav class="rightNav">
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" class="items">Gmail</a>
+            <a href="https://www.google.com/imghp?hl=en&tab=ri&ogbl" class="items">Images</a>
+            <img class='headerImg items' src='images/apps.png' alt="AppLauncher">
+            <img class='headerImg items' src='images/avatar.png' alt="Avatar">
+        </nav>
+    </header>
+
+    <main>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"
+            width="272" height="92">
+        <form action="/" onsubmit="searchF()">
+            <!-- onsubmit calls a function after the user has submitted a form.-->
+            <div>
+                <div class='searchBar' alt="search bar">
+                    <img class='searchBarIcon iconFill' src='images/searchIcon.svg' alt="SearchIcon">
+                    <input type='text' placeholder="search..." id="search">
+                    <img class='searchBarIcon' src='images/Microphone.svg' alt="Microphone">
+                    <img class='searchBarIcon' src='images/Camera.svg' alt="Camera">
+                </div>
+                <div>
+                    <button type="submit" id="googleSearch">Google Search</button>
+                    <button type="submit" id="feelingLucky">Lucky Search</button>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer class='items'>
+
+        <nav class="leftFooter">
+            <a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+                class='items'>Advertising</a>
+            <a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/"
+                class='items'>Business</a>
+            <a href="https://www.google.com/search/howsearchworks/?fg=1" class='items'>How Search works</a>
+        </nav>
+
+        <nav class="middleFooter">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"
+                width=12 height=14>
+            <a href="https://sustainability.google/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content="
+                class='items'>Our third decade of climate action: join us</a>
+        </nav>
+
+        <nav class="rightFooter">
+            <a href="https://policies.google.com/privacy?hl=en&fg=1" class='items'>Privacy</a>
+            <a href="https://policies.google.com/terms?hl=en&fg=1" class='items'>Terms</a>
+            <a href="" class='items'>Settings</a>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
